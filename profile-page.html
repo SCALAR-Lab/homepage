@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>
+        SCALAR Lab
+    </title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
+          name='viewport'/>
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- CSS Files -->
+    <link href="./assets/css/table.css" rel="stylesheet"/>
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="./assets/css/now-ui-kit.css?v=1.3.0" rel="stylesheet"/>
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link href="./assets/demo/demo.css" rel="stylesheet"/>
+    <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
+    <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+    <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+    <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+    <script src="./assets/js/plugins/bootstrap-switch.js"></script>
+    <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+    <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+    <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+    <script src="./assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
+    <!--  Google Maps Plugin    -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+    <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
+    <script src="./assets/js/now-ui-kit.js?v=1.3.0" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            nowuiKit.initSliders();
+        });
+
+        function scrollToDownload() {
+            if ($('.section-download').length != 0) {
+                $("html, body").animate({
+                    scrollTop: $('.section-download').offset().top
+                }, 1000);
+            }
+        }
+    </script>
+
+</head>
+
+<body class="profile-page sidebar-collapse">
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-info fixed-top navbar-transparent " color-on-scroll="400">
+    <div class="container">
+        <div class="navbar-translate">
+            <a class="navbar-brand" href="#pablo">SCALAR LAB</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#example-navbar-info"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="example-navbar-info"
+             data-nav-image="./assets/img/blurred-image-1.jpg">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        <p>Info</p>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#pablo">
+                        <p>Profile</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pablo">
+                        <p>Publications</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pablo">
+                        <p>Members</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pablo">
+                        <p>CONTACT</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- End Navbar -->
+<div class="wrapper">
+    <div class="page-header clear-filter page-header-small" filter-color="cyan">
+        <div class="page-header-image" data-parallax="true" style="background-image:url('./assets/img/bg5.jpg');">
+        </div>
+        <div class="container">
+            <div class="photo-container">
+                <img src="./assets/img/default-avatar.png" alt="">
+            </div>
+            <h3 class="title">Konwoo Kwon</h3>
+            <p class="category">Professor</p>
+            <div class="content">
+                <div class="social-description">
+                    <h2>26</h2>
+                    <p>Comments</p>
+                </div>
+                <div class="social-description">
+                    <h2>T804</h2>
+                    <p>Office</p>
+                </div>
+                <div class="social-description">
+                    <h2>48</h2>
+                    <p>Bookmarks</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section section-pagination">
+        <div class="container">
+            <div class="button-container">
+                <a href="#button" class="btn btn-primary btn-round btn-info">Follow</a>
+                <a href="#button" class="btn btn-default btn-round btn-lg btn-icon" rel="tooltip"
+                   title="Follow me on Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#button" class="btn btn-default btn-round btn-lg btn-icon" rel="tooltip"
+                   title="Follow me on Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <h3 class="title">About me</h3>
+            <h5 class="description">Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and
+                printing in place of English to emphasise design elements over content. It's also called placeholder (or
+                filler) text. It's a convenient tool for mock-ups. It helps to outline the visual elements of a document
+                or presentation, eg typography, font, or layout. Lorem ipsum is mostly a part of a Latin text by the
+                classical author and philosopher Cicero. Its words and letters have been changed by addition or removal,
+                so to deliberately render its content nonsensical; it's not genuine, correct, or comprehensible Latin
+                anymore. While lorem ipsum's still resembles classical Latin, it actually has no meaning whatsoever. As
+                Cicero's text doesn't contain the letters K, W, or Z, alien to latin, these, and others are often
+                inserted randomly to mimic the typographic appearence of European languages, as are digraphs not to be
+                found in the original.</h5>
+            <div class="row">
+
+            </div>
+        </div>
+    </div>
+    <!-- Career -->
+    <div class="section">
+        <div class="container">
+            <h3 class="title">Career</h3>
+        </div>
+        <div class=" container ">
+            <table class="rwd-table">
+                <tbody>
+                <tr>
+                    <th>Years</th>
+                    <th>Company</th>
+                    <th>Position</th>
+                </tr>
+                <tr>
+                    <td data-th="Years">2015/08 ~ 2018/02</td>
+                    <td data-th="Company">Intel Corporation</td>
+                    <td data-th="Position">Hardware Engineer</td>
+                </tr>
+                <tr>
+                    <td data-th="Years">2009/02 ~ 2010/07</td>
+                    <td data-th="Company">Hyundai Motor Research Center</td>
+                    <td data-th="Position">Researcher</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!-- Papaers -->
+    <div class="section">
+        <div class="container">
+            <h3 class="title">Papers</h3>
+        </div>
+        <div class=" container ">
+            <table class="rwd-table">
+                <tbody>
+                <tr>
+                    <th>Years</th>
+                    <th>Paper</th>
+                    <th>Publication?</th>
+                </tr>
+                <tr>
+                    <td data-th="Years">2022</td>
+                    <td data-th="Paper">Latency-Optimized Design of Data Bus Inversion</td>
+                    <td data-th="Publication">Electronics (Switzerland)</td>
+                </tr>
+                <tr>
+                    <td data-th="Years">2021/11</td>
+                    <td data-th="Paper">ZeBRA: Precisely Destroying Neural Networks with Zero-Data Based Repeated Bit
+                        Flip
+                        Attack
+                    </td>
+                    <td data-th="Publication">British Machine Vision Conference 2021</td>
+                </tr>
+                <tr>
+                    <td data-th="Years">2021/04</td>
+                    <td data-th="Paper">Area Optimization Techniques for High-Density Spin-Orbit Torque MRAMs</td>
+                    <td data-th="Publication">ELECTRONICS</td>
+                </tr>
+                <tr>
+                    <td data-th="Years">2021/02</td>
+                    <td data-th="Paper">Optimal bus coding for OR-chained buses</td>
+                    <td data-th="Publication">IEICE ELECTRONICS EXPRESS</td>
+                </tr>
+                <tr>
+                    <td data-th="Years">2021</td>
+                    <td data-th="Paper">시력 취약 계층을 위한 신용 카드 번호 인식 연구</td>
+                    <td data-th="Publication">전기전자학회논문지</td>
+                </tr>
+                <tr>
+                    <td data-th="Years">2021</td>
+                    <td data-th="Paper">Minimal Aliasing Single-Error-Correction Codes for DRAM Reliability
+                        Improvement
+                    </td>
+                    <td data-th="Publication">IEEE Access</td>
+                </tr>
+                <tr>
+                    <td data-th="Years">2020/11</td>
+                    <td data-th="Paper">Area-optimized design of SOT-MRAM</td>
+                    <td data-th="Publication">IEICE ELECTRONICS EXPRESS</td>
+                </tr>
+                <tr>
+                    <td data-th="Years">2019/08</td>
+                    <td data-th="Paper">Design and Implementation of Magnetic Induction based Wireless Underground
+                        Communication System Supporting Distance Measurement
+                    </td>
+                    <td data-th="Publication">KSII TRANSACTIONS ON INTERNET AND INFORMATION SYSTEMS</td>
+                </tr>
+                <tr>
+                    <td data-th="Years">2019</td>
+                    <td data-th="Paper">Spin Hall Effect-based Nonvolatile Flip Flop for Fine-grained Power Gating</td>
+                    <td data-th="Publication">IEIE Transactions on Smart Processing &amp; Computing</td>
+                </tr>
+                <tr>
+                    <td data-th="Years">2019</td>
+                    <td data-th="Paper">Modeling Application-Level Soft Error Effects for Single-Event Multi-Bit
+                        Upsets
+                    </td>
+                    <td data-th="Publication">IEEE ACCESS</td>
+                </tr>
+                <tr>
+                    <td data-th="Years">2019</td>
+                    <td data-th="Paper">Spin hall effect-based nonvolatile flip flop for fine-grained power gating</td>
+                    <td data-th="Publication">IEIE Transactions on Smart Processing and Computing</td>
+                </tr>
+                <tr>
+                    <td data-th="Years">2018/06</td>
+                    <td data-th="Paper">Energy Reduction in Asymmetric Write Operations of STT-MRAMs</td>
+                    <td data-th="Publication">JOURNAL OF SEMICONDUCTOR TECHNOLOGY AND SCIENCE</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+</div>
+</div>
+</div>
+<footer class="footer footer-default">
+    <div class=" container ">
+        <nav>
+            <ul>
+                <li>
+                    <a href="">
+                        NULL01
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        NULL02
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        NULL03
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="copyright" id="copyright">
+            &copy;
+            <script>
+                document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
+            </script>
+            , Supported by
+            <a href="" target="_blank">Example</a>. Coded by
+            <a href="" target="_blank">Sample</a>.
+        </div>
+    </div>
+</footer>
+</div>
+</body>
+
+</html>
