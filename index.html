@@ -53,7 +53,7 @@
 <nav class="navbar navbar-expand-lg bg-info fixed-top navbar-transparent " color-on-scroll="400">
     <div class="container">
         <div class="navbar-translate">
-            <a class="navbar-brand" href="#pablo" style="text-transform: none" >SCALAR Lab</a>
+            <a class="navbar-brand" href="#pablo" style="text-transform: none">SCALAR Lab</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#example-navbar-info"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-bar bar1"></span>
@@ -65,23 +65,28 @@
              data-nav-image="./assets/img/blurred-image-1.jpg">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="">
-                        <p>Info</p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="profile-page.html">
-                        <p>Profile</p>
+                    <a class="nav-link" href="index.html">
+                        <p>Home</p>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#pablo">
-                        <p>Publications</p>
+                        <p>People</p>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#pablo">
-                        <p>Members</p>
+                        <p>Research</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pablo">
+                        <p>Publication</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pablo">
+                        <p>Contact</p>
                     </a>
                 </li>
             </ul>
@@ -105,38 +110,38 @@
             <div class="container text-center">
                 <div class="row justify-content-md-center">
                     <div class="col-md-12 col-lg-8">
-                        <h2 class="title">SCALAR LAB</h2>
-                        <h5 class="description">This lab. is led by Kwon Gun-woo, a professor of computer engineering
-                            department at Hongik University..</h5>
+                        <h2 class="title">SCALAR Lab</h2>
+                        <h5 class="description">Our research focuses on scalable compute and memory systems for improving performance, energy efficiency, security, reliability especially when running emerging applications such as DNN model.
+                        </h5>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="section section-examples" data-background-color="black">
-            <div class="space-50"></div>
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col">
-                        <a href="examples/landing-page.html" target="_blank">
-                            <img src="assets/img/landing.jpg" alt="Image" class="img-raised">
-                        </a>
-                        <a href="examples/landing-page.html" class="btn btn-outline-default btn-primary btn-round">View
-                            Landing Page</a>
+        <div class="section section-download" id="#download-section" data-background-color="black">
+            <div class="container">
+                <div class="row justify-content-md-center">
+                    <div class="text-center col-md-12 col-lg-8">
+                        <h3 class="title">Our research ares includes the following applications.</h3>
+                        <h5 class="description">
+                            - Security of Deep Neural Networks<br><br>
+                            - DRAM Research for  Secure and Reliable Operations<br><br>
+                            - Spin Memories for Future Computing Systems<br><br>
+                            - Error Correction Code Design<br><br>
+                            - Sparse Matrix-Vector Multiplication on Various Platforms<br><br>
+                        </h5>
                     </div>
-                    <div class="col">
-                        <a href="examples/profile-page.html" target="_blank">
-                            <img src="assets/img/profile.jpg" alt="Image" class="img-raised">
-                        </a>
-                        <a href="examples/profile-page.html" class="btn btn-outline-default btn-primary btn-round">View Professor Profile</a>
-                    </div>
+
                 </div>
-            </div>
-        </div>
+                <br>
+                <br>
+                <br>
+    </div>
     </div>
     <footer class="footer" data-background-color="black">
         <div class=" container ">
             <nav>
                 <ul>
+                    <!--
                     <li>
                         <a href="">
                             NULL01
@@ -152,16 +157,20 @@
                             NULL03
                         </a>
                     </li>
+                    -->
                 </ul>
             </nav>
             <div class="copyright" id="copyright">
+                <!--
                 &copy;
-                <script>
-                    document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
-                </script>
+
                 , Supported by
                 <a href="" target="_blank">Example</a>. Coded by
                 <a href="" target="_blank">Sample</a>.
+                -->
+                SCALAR Lab. <script>
+                document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
+            </script> <a href="https://www.hongik.ac.kr/index.do" target="_blank">Hongik Univ</a>.
             </div>
         </div>
     </footer>
