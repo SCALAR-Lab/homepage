@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>
+        SCALAR Lab
+    </title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
+          name='viewport'/>
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- CSS Files -->
+    <link href="./assets/css/table.css" rel="stylesheet"/>
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="./assets/css/now-ui-kit.css?v=1.3.0" rel="stylesheet"/>
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link href="./assets/demo/demo.css" rel="stylesheet"/>
+    <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
+    <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+    <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+    <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+    <script src="./assets/js/plugins/bootstrap-switch.js"></script>
+    <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+    <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+    <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+    <script src="./assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
+    <!--  Google Maps Plugin    -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+    <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
+    <script src="./assets/js/now-ui-kit.js?v=1.3.0" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            nowuiKit.initSliders();
+        });
+
+        function scrollToDownload() {
+            if ($('.section-download').length != 0) {
+                $("html, body").animate({
+                    scrollTop: $('.section-download').offset().top
+                }, 1000);
+            }
+        }
+    </script>
+
+</head>
+
+<body class="profile-page sidebar-collapse">
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-info fixed-top navbar-transparent " color-on-scroll="400">
+    <div class="container">
+        <div class="navbar-translate">
+            <a class="navbar-brand" href="#pablo" style="text-transform: none">SCALAR Lab</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#example-navbar-info"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="example-navbar-info"
+             data-nav-image="./assets/img/blurred-image-1.jpg">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        <p>Home</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="people.html">
+                        <p>People</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pablo">
+                        <p>Research</p>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="publications.html">
+                        <p>Publication</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pablo">
+                        <p>Contact</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- End Navbar -->
+<div class="wrapper">
+    <div class="page-header clear-filter page-header-small" filter-color="cyan">
+        <div class="page-header-image" data-parallax="true" style="background-image:url('./assets/img/bg5.jpg');">
+        </div>
+        <div class="container">
+            <div class="photo-container">
+                <img src="/assets/img/hongik_blue.jpg">
+            </div>
+            <h3 class="title">SCALAR Lab</h3>
+            <p class="category">Hongik University</p>
+            <div class="content">
+                <div class="social-description">
+                    <h2>25</h2>
+                    <p>Publications</p>
+                </div>
+                <div class="social-description">
+                    <h2>T 719-A</h2>
+                    <p>Office</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Publications -->
+    <div class="section">
+        <div class="container">
+            <h3 class="title">Publications</h3>
+        </div>
+        <div class=" container ">
+            <table class="rwd-table">
+                <tbody>
+                <tr>
+                    <th>Paper</th>
+                    <th>Authors</th>
+                    <th>Date</th>
+                    <th>Accepted</th>
+                </tr>
+                <tr>
+                    <td data-th="Paper">Latency-optimized design of data bus inversion</td>
+                    <td data-th="Authors">S. Pae and K.-W. Kwon</td>
+                    <td data-th="Date">Mar. 2022.</td>
+                    <td data-th="Accepted">Electronics</td>
+                </tr>
+                <tr>
+                    <td data-th="Paper">ZeBRA: Precisely Destroying Neural Networks with Zero-Data Based Repeated Bit Flip Attack</td>
+                    <td data-th="Authors">D. Park, K.-W. Kwon, S. Im, J. Kung</td>
+                    <td data-th="Date">Nov. 2021.</td>
+                    <td data-th="Accepted">The British Machine Vision Conference</td>
+                </tr>
+                <tr>
+                    <td data-th="Paper">Area Optimization Techniques for High-Density Spin-Orbit Torque MRAMs</td>
+                    <td data-th="Authors">Y. Seo and K.-W. Kwon</td>
+                    <td data-th="Date">Mar. 2021.</td>
+                    <td data-th="Accepted">Electronics</td>
+                </tr>
+                <tr>
+                    <td data-th="Paper">Minimal Aliasing Single-Error-Correction Codes for DRAM Reliability Improvement</td>
+                    <td data-th="Authors">S. Pae, V. Kozhikkottu, D. Somasekar, W. Wu, S. Ramasubramanian, M. Dadual, H. Cho, and K.-W. Kwon</td>
+                    <td data-th="Date">Feb. 2021.</td>
+                    <td data-th="Accepted">IEEE Access</td>
+                </tr>
+                <tr>
+                    <td data-th="Paper">Optimal bus coding for OR-chained buses</td>
+                    <td data-th="Authors">K.-W. Kwon</td>
+                    <td data-th="Date">Jan. 2021.</td>
+                    <td data-th="Accepted">IEICE Electronics Express</td>
+                </tr>
+                <tr>
+                    <td data-th="Paper">시력 취약 계층을 위한 신용 카드 번호 인식 연구</td>
+                    <td data-th="Authors">D. Park and K.-W. Kwon</td>
+                    <td data-th="Date"> Mar. 2021.</td>
+                    <td data-th="Accepted">전기전자학회논문지</td>
+                </tr>
+                <tr>
+                    <td data-th="Paper">Area-optimized design of SOT-MRAM</td>
+                    <td data-th="Authors">Y. Seo and K.-W. Kwon</td>
+                    <td data-th="Date">Oct. 2020.</td>
+                    <td data-th="Accepted">IEICE Electronics Express</td>
+                </tr>
+                <tr>
+                    <td data-th="Paper">Spin Hall Effect–Based Nonvolatile Flip Flop for Fine Grained Power Gating</td>
+                    <td data-th="Authors">K.-W. Kwon</td>
+                    <td data-th="Date">2019.</td>
+                    <td data-th="Accepted">IEIE Transactions on Smart Processing and Computin</td>
+                </tr>
+                <tr>
+                    <td data-th="Paper">Modeling Application-Level Soft Error Effects for Single-Event Multi-Bit Upsets</td>
+                    <td data-th="Authors">H.M. Cho and K.-W. Kwon</td>
+                    <td data-th="Date">Sep. 2019.</td>
+                    <td data-th="Accepted">IEEE Access</td>
+                </tr>
+                <tr>
+                    <td data-th="Paper">Design and Implementation of Magnetic Induction based Wireless Underground Communication System Supporting Distance Measurement</td>
+                    <td data-th="Authors">M.J. Kim, S.H. Chae, Y.B. Shim, D.H. Lee, M.J. Kim, Y.K. Moon, and K.-W. Kwon</td>
+                    <td data-th="Date">Aug. 2019.</td>
+                    <td data-th="Accepted">KSII Transactions on Internet and Information Systems</td>
+                </tr>
+                <tr>
+                    <td data-th="Paper">Energy Reduction in Asymmetric Write Operations of STT-MRAMs</td>
+                    <td data-th="Authors">K.-W. Kwon</td>
+                    <td data-th="Date">June 2018.</td>
+                    <td data-th="Accepted">Journal of Semiconductor Technology and Science</td>
+                </tr>
+                <tr>
+                    <td data-th="Paper">High Performance and Energy-Efficient On-Chip Cache Using Dual Port (1R/1W) Spin-Orbit Torque MRAM</td>
+                    <td data-th="Authors">Y. Seo, K.-W. Kwon, X. Fong, and K. Roy</td>
+                    <td data-th="Date">Sep. 2016.</td>
+                    <td data-th="Accepted">IEEE Journal on Emerging and Selected Topics in Circuits and Systems</td>
+                </tr>
+                <tr>
+                    <td data-th="Paper">Area-efficient SOT-MRAM with a Schottkky diode</td>
+                    <td data-th="Authors">Y. Seo, K.-W. Kwon, and K. Roy</td>
+                    <td data-th="Date">Aug. 2016.</td>
+                    <td data-th="Accepted">IEEE Electron Device Letters</td>
+                </tr>
+                <tr>
+                    <td data-th="Paper">High-density and robust STT-MRAM array through device/circuit/architecture interactions</td>
+                    <td data-th="Authors">K.-W. Kwon, X. Fong, P. Wijesinghe, P. Panda, and K. Roy</td>
+                    <td data-th="Date">Nov. 2015.</td>
+                    <td data-th="Accepted">IEEE Transactions on Nanotechnology</td>
+                </tr>
+                <tr>
+                    <td data-th="Paper">Multilevel spin-orbit torque MRAMs</td>
+                    <td data-th="Authors">Y. Kim, X. Fong, K.-W. Kwon, M. C. Chen, and K. Roy</td>
+                    <td data-th="Date">Feb. 2015.</td>
+                    <td data-th="Accepted">IEEE Transactions on Electron Devices</td>
+                </tr>
+                <tr>
+                    <td data-th="Paper">Spin-hall magnetic random-access memory with dual read/write ports for on-chip caches</td>
+                    <td data-th="Authors">Y. Seo, X. Fong, K.-W. Kwon, and K. Roy</td>
+                    <td data-th="Date">June 2015.</td>
+                    <td data-th="Accepted">IEEE Magnetic Letters</td>
+                </tr>
+                <tr>
+                    <td data-th="Paper">SHE-NVFF: Spin Hall Effect based Nonvolatile Flip Flop for Power Gating Architecture</td>
+                    <td data-th="Authors"> K.-W. Kwon, S. H. Choday, Y. Kim, X. Fong, S.P. Park and K. Roy</td>
+                    <td data-th="Date">April 2014.</td>
+                    <td data-th="Accepted">IEEE Electron Device Letters</td>
+                </tr>
+                <tr>
+                    <td data-th="Paper">AWARE (Asymmetric Write Architecture with REdundant blocks): A High Write Speed STT-MRAM Cache Architecture</td>
+                    <td data-th="Authors">K.-W. Kwon, S. H. Choday, Y. Kim and K. Roy</td>
+                    <td data-th="Date">April 2014.</td>
+                    <td data-th="Accepted">IEEE Trans. on VLSI Systems</td>
+                </tr>
+                <tr>
+                    <td data-th="Paper">Workload dependent evaluation of thin-film thermoelectric devices for on-chip cooling and energy harvesting</td>
+                    <td data-th="Authors">S.H. Harsha, K.-W. Kwon and K. Roy</td>
+                    <td data-th="Date">Nov. 2014.</td>
+                    <td data-th="Accepted">IEEE ICCAD</td>
+                </tr>
+                <tr>
+                    <td data-th="Paper">Design of Ultra High Density and Low Power Computational Blocks using Nano-Magnets</td>
+                    <td data-th="Authors">K. Yogendra, M. Sharad, K.-W. Kwon and K. Roy</td>
+                    <td data-th="Date">Mar. 2012.</td>
+                    <td data-th="Accepted">IEEE ISQED</td>
+                </tr>
+                <tr>
+                    <td data-th="Paper">High-Speed and Low-Complexity Decoding Architecture for Double Binary Turbo Code</td>
+                    <td data-th="Authors">K.-W. Kwon, K.-H. Baek, and J. W. Lee</td>
+                    <td data-th="Date">Nov. 2011.</td>
+                    <td data-th="Accepted">IEICE Trans. on Fundamentals of Electronics, Communications and Computer Science</td>
+                </tr>
+                <tr>
+                    <td data-th="Paper">Efficient CTC Interleaver and Deinterleaver for the WiMAX Standard</td>
+                    <td data-th="Authors">K.-W. Kwon, J. Park, B. Lee, K.-H. Baek, and S. Kim</td>
+                    <td data-th="Date">Nov. 2008.</td>
+                    <td data-th="Accepted">International SoC Design Conference</td>
+                </tr>
+                <tr>
+                    <td data-th="Paper">An Efficient Architecture of an Improved Max-Log-MAP Algorithm for Double Binary Turbo Decoding</td>
+                    <td data-th="Authors">K.-W. Kwon, Y. Kim, J. Park, K.-H. Baek, and S. Kim</td>
+                    <td data-th="Date">2008.</td>
+                    <td data-th="Accepted">2008 Conference on Information and Control System, pp. 388-389</td>
+                </tr>
+                <tr>
+                    <td data-th="Paper">Design an Infrared Wireless Optical Mouse System and a Dual-band Infrared Receiver</td>
+                    <td data-th="Authors">K. Lim, K.-W. Kwon, H. Park, J. Kim, J.-J. Sung, K.-H. Baek and S. Kim</td>
+                    <td data-th="Date">The 15th IEEE International Conference On Electronics, Circuits and Systems</td>
+                    <td data-th="Accepted">Aug. 2008.</td>
+                </tr>
+                <tr>
+                    <td data-th="Paper">Security Camera Processor using One-bit Motion Detection</td>
+                    <td data-th="Authors">J. Kim, J. Park, K. Lee, B. Lee, K. Kwon and S. Kim</td>
+                    <td data-th="Date"><2007./td>
+                    <td data-th="Accepted">International SoC Design Conference</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+</div>
+</div>
+</div>
+<footer class="footer footer-default">
+    <div class=" container ">
+        <nav>
+            <ul>
+                <!--
+                <li>
+                    <a href="">
+                        NULL01
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        NULL02
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        NULL03
+                    </a>
+                </li>
+                -->
+            </ul>
+        </nav>
+        <div class="copyright" id="copyright">
+            <!--
+            &copy;
+
+            , Supported by
+            <a href="" target="_blank">Example</a>. Coded by
+            <a href="" target="_blank">Sample</a>.
+            -->
+            SCALAR Lab.
+            <script>
+                document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
+            </script>
+            <a href="https://www.hongik.ac.kr/index.do" target="_blank">Hongik Univ</a>.
+        </div>
+    </div>
+</footer>
+</div>
+</body>
+
+</html>
