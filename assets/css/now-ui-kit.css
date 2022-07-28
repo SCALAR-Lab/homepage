@@ -5995,7 +5995,7 @@ img {
 }
 
 .page-header.page-header-small {
-  min-height: 60vh;
+  min-height: 30vh;
   max-height: 440px;
 }
 
