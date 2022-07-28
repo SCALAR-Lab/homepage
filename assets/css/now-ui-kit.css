@@ -2656,7 +2656,7 @@ fieldset[disabled] .btn-link.active {
   color: #2c2c2c;
   height: auto;
   line-height: normal;
-  font-size: 0.8571em;
+  font-size: 1em;
   -webkit-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
   -moz-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
   -o-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
@@ -2974,8 +2974,8 @@ fieldset[disabled] .btn-link.active {
 .form-control[readonly],
 fieldset[disabled] .form-control {
   background-color: #E3E3E3;
-  color: #888888;
-  cursor: not-allowed;
+  color: #000000;
+  cursor: text;
 }
 
 .input-group-btn .btn {
@@ -5996,7 +5996,7 @@ img {
 
 .page-header.page-header-small {
   min-height: 30vh;
-  max-height: 440px;
+  max-height: 220px;
 }
 
 .page-header:before {
