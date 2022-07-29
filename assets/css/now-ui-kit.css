@@ -2973,7 +2973,8 @@ fieldset[disabled] .btn-link.active {
 .form-control[disabled],
 .form-control[readonly],
 fieldset[disabled] .form-control {
-  background-color: #E3E3E3;
+  border-style: none;
+  background-color: #FFFFFF;
   color: #000000;
   cursor: text;
 }
