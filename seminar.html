@@ -33,12 +33,21 @@
             line-height: 100px;
             text-decoration: none;
             display: inline-block;
-            margin: 10px;
+            margin: 0;
             border-radius: 10px;
             font-size: 20px;
         }
+
         .annual:hover {
             background-color: #4495cb;
+        }
+
+        /* Flexbox 적용하여 간격 조절 */
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 30px; /* 박스 사이의 간격 설정 */
+            flex-wrap: wrap; /* 화면이 작아질 경우 줄 바꿈 */
         }
     </style>
     <title>링크 박스 예제</title>
